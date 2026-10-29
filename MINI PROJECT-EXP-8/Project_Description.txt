@@ -1,0 +1,84 @@
+PUBLIC TRANSPORT USAGE ANALYTICS SYSTEM
+College Mini Project | Python Only
+
+1. PROJECT OVERVIEW
+This project analyzes public transport passenger counts using Python. It inspects a CSV dataset,
+filters records by route and travel period, calculates descriptive statistics, and generates charts
+to help understand passenger demand patterns.
+
+2. OBJECTIVES
+- Load and inspect passenger data from a CSV file.
+- Check for missing values, duplicates, and invalid passenger counts.
+- Filter data by route, date, and time period.
+- Calculate total, mean, median, mode, range, variance, and standard deviation.
+- Generate route comparison, daily trend, and passenger distribution charts.
+- Export a route summary CSV and save charts for the project report.
+
+3. TECHNOLOGY
+- Python 3.10 or newer recommended
+- pandas
+- numpy
+- matplotlib
+
+4. PROJECT STRUCTURE
+Project root:
+- Project_Description.txt
+- code/
+
+Inside code/:
+- transport_analytics.py : complete analysis script
+- passenger_data.csv : sample dataset (simulated demonstration data)
+- requirements.txt : required Python packages
+- README.txt : run instructions
+
+5. DATASET
+The included passenger_data.csv is SIMULATED sample data created for demonstrating the project.
+It is not real data from a transport authority and should not be presented as official city statistics.
+Fields:
+- Date: date of observation
+- Route: route identifier
+- Time_Period: Morning, Afternoon, Evening, or Night
+- Passengers: recorded passenger count for that route/time/day
+- Day_Type: Weekday or Weekend
+
+6. HOW TO RUN
+Option A - Windows:
+1. Install Python 3.10+ and select "Add Python to PATH" during installation.
+2. Open Command Prompt or PowerShell in the code folder.
+3. Run:
+   python -m pip install -r requirements.txt
+   python transport_analytics.py
+
+Option B - Jupyter Notebook:
+1. Install dependencies using the command above.
+2. Open Jupyter in the project folder:
+   python -m pip install jupyter
+   jupyter notebook
+3. You can run the script from a notebook cell:
+   %run transport_analytics.py
+
+7. OUTPUTS
+The script creates an outputs/ folder inside code/ when executed, containing:
+- route_comparison.png
+- daily_passenger_trend.png
+- passenger_distribution.png
+- route_summary.csv
+- statistical_summary.csv
+
+8. ANALYSIS MODULES
+A. Data loading and inspection
+B. Data validation and filtering
+C. Descriptive statistical analysis
+D. Route and time-period comparisons
+E. Data visualization
+F. Exporting results
+
+9. LIMITATIONS
+- The supplied dataset is simulated.
+- Findings demonstrate the analysis workflow and are not evidence about actual bus services.
+- The project performs descriptive analysis only; it does not predict future passenger demand.
+
+10. POSSIBLE FUTURE ENHANCEMENTS
+- Replace the sample data with verified passenger-count records.
+- Add additional charts and route filters.
+- Build a user interface or a dashboard in a future version.
