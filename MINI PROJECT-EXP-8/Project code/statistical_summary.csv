@@ -1,0 +1,11 @@
+Metric,Value
+Record count,1800
+Total passengers (sum of observations),143126
+Mean passengers per record,79.51
+Median passengers per record,79.0
+Mode passenger count,68
+Minimum passengers,2
+Maximum passengers,169
+Range,167
+Variance (sample),1331.63
+Standard deviation (sample),36.49
